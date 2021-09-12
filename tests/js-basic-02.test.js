@@ -34,7 +34,7 @@
 ? backticks for template literals.
 
 TODO: This skill requires 1 line of code.
-TODO: Use the let keyword to create a variable called myCLass and assign it to
+TODO: Use the let keyword to create a variable called myClass and assign it to
 TODO: the string literal 'JavaScript is Awesome!'.
 */
 

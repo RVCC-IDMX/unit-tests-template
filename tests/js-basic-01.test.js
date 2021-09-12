@@ -181,7 +181,7 @@ test('sillyMath', () => {
 TODO: This skill requires 2 lines of code.
 TODO: You already have an undefined variable called oops; leave it undefined.
 TODO: In the first line, create a variable called sillyString and leave it undefined.
-TODO: In the second line, assign sillySTring to 'Hello, ' and concatenate oops to the end.
+TODO: In the second line, assign sillyString to 'Hello, ' and concatenate oops to the end.
 */
 
 // * Add your code BELOW here
