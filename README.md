@@ -38,6 +38,10 @@ or inside the package.json it would be the same as:
 
 `"test": "jest js-basic-01.test.js"`
 
+Since we have four files that need individual editing, we want to run individual testing as well.
+
+---
+
 By default, jest looks for files that end in .test.js and will search folders to find those files. Your JavaScript files are in a folder call tests.
 
 So the above example tests the first file `tests/js-basic-01.test.js` and outputs the results to the console.
@@ -48,7 +52,7 @@ If a test fails, jest will identify it as failing and print one or more error me
 
 ## Edit and test each file sequentially
 
-One-by-one, edit each JavaScript file and follow the instructions for each coding skill. You should run the test after each completed skill and see you pass count increase. When one file passes completely, you are ready for the next file.
+One-by-one, edit each JavaScript file and follow the instructions for each coding skill. You should run the test after each completed skill and see the pass count increase. When one file passes completely, you are ready for the next file.
 
 Start with js-basic-01.test.js and finish with js-basic-04.test
 
