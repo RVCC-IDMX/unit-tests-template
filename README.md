@@ -34,7 +34,11 @@ The above npm command is equivalent to:
 
 `npx jest js-basic-01.test.js`
 
-By default, jest looks for files that end in test.js and will search folders to find those files. Your JavaScript files are in a folder call tests.
+or inside the package.json it would be the same as:
+
+`"test": "jest js-basic-01.test.js"`
+
+By default, jest looks for files that end in .test.js and will search folders to find those files. Your JavaScript files are in a folder call tests.
 
 So the above example tests the first file `tests/js-basic-01.test.js` and outputs the results to the console.
 
