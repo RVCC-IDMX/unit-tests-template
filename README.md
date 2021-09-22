@@ -28,7 +28,7 @@ Fixing the code will make the tests pass and show in green in the console. Here 
 
 `npm test -- js-basic-01.test.js`
 
-NOTE: The -- tells npm to pass along whatever following arguments there are to the program it is running.
+**NOTE:** The -- tells npm to pass along whatever following arguments there are to the program it is running.
 
 The above npm command is equivalent to:
 
@@ -39,6 +39,8 @@ or inside the package.json it would be the same as:
 `"test": "jest js-basic-01.test.js"`
 
 Since we have four files that need individual editing, we want to run individual testing as well.
+
+**NOTE:** Don't forget to save the files before you try running the test or Jest won't be able to see the changes.
 
 ---
 
