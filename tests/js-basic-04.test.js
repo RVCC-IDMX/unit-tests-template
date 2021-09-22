@@ -99,11 +99,14 @@ TODO: such that randomInt is between 0 (inclusive) and 5 (exclusive).
 TODO: Make sure to round down the value to the nearest integer.
 
 */
+// * Don't mess with the test code below here!
+jest.spyOn(global.Math, 'random').mockReturnValue(0.9);
 
 // * Add your code BELOW here
 
 // * Don't mess with the test code below here!
 
+jest.spyOn(global.Math, 'random').mockRestore();
 test('randomInt', () => {
   expect(typeof randomInt).toBe('number');
   expect(randomInt).toBeGreaterThanOrEqual(0);
