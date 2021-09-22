@@ -145,7 +145,35 @@ test('numRounded', () => {
 
 /*
 
-! SKILL 5 Type conversion string to number using parseInt()
+! SKILL 5 Round up or down based on the actual number
+
+TODO: This skill requires 6 lines of code.
+TODO: In line 1: Using the keyword let declare a variable called rounding1
+TODO: and assign it the value 5.95
+TODO: In line 2: Using the Math object, round rounding1 to the nearest integer
+TODO: In line 3: Using the keyword let declare a variable called rounding2
+TODO: and assign it the value 5.5
+TODO: In line 4: Using the Math object, round rounding2 to the nearest integer
+TODO: In line 5: Using the keyword let declare a variable called rounding3
+TODO: and assign it the value 5.05
+TODO: In line 6: Using the Math object, round rounding3 to the nearest integer
+*/
+
+// * Add your code BELOW here
+
+// * Don't mess with the test code below here!
+
+test('rounding', () => {
+  expect(typeof rounding1).toBe('number');
+  expect(rounding1).toBe(6);
+  expect(typeof rounding2).toBe('number');
+  expect(rounding2).toBe(6);
+  expect(typeof rounding3).toBe('number');
+  expect(rounding3).toBe(5);
+})
+/*
+
+! SKILL 6 Type conversion string to number using parseInt()
 
 ? The parseInt() and parseFloat() functions are global functions and
 ? can be used to convert strings to numbers. The parseInt() function
@@ -181,7 +209,7 @@ test('bakersDozen', () => {
 
 /*
 
-! SKILL 6 Type conversion number to string using .toFixed()
+! SKILL 7 Type conversion number to string using .toFixed()
 
 ? The .toFixed() method converts a number to a string, but it also
 ? has an optional parameter that specifies the number of digits to
@@ -226,7 +254,7 @@ test('myPiFixed', () => {
 
 /*
 
-! SKILL 7 Type conversion string to number using the unary + operator
+! SKILL 8 Type conversion string to number using the unary + operator
 
 ? The unary + operator attempts to convert a string to a number.
 ? If the string cannot be converted to a number, the + operator returns
