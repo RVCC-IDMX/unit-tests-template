@@ -80,7 +80,7 @@ TODO: This skill requires 1 line of code.
 TODO: Use the let keyword to create a variable called petName and assign it to any
 TODO: string with exactly 6 alphanumeric characters in it.
 
-? What is alphnumeric? The letters a-z and A-Z, and the numerals 0-9.
+? What is alphanumeric? The letters a-z and A-Z, and the numerals 0-9.
 */
 
 // * Add your code BELOW here
@@ -177,7 +177,7 @@ test('mySentence', () => {
 TODO: This skill requires 1 line of code.
 TODO: Use the let keyword to create a variable called helloPet and assign it to the
 TODO: template literal that starts with the string 'Hello, ' and ends with the value
-TODO: of the already delared assigned petName (from Skill 3) by using the ${} syntax
+TODO: of the already declared assigned petName (from Skill 3) by using the ${} syntax
 TODO: for a JavaScript expression inside a template literal.
 */
 

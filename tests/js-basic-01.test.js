@@ -30,7 +30,7 @@
 
 ? All of the variables and constants in this file are global variables.
 ? This is why we can access them anywhere after they are declared.
-? We'll use this behavior to resue some variables and constants multiple times
+? We'll use this behavior to reuse some variables and constants multiple times
 ? in this file when creating our skill tests.
 */
 
@@ -123,7 +123,7 @@ TODO: In the second line, assign myWorkDays to the value of the constant daysInW
 TODO: DO NOT use the number literal 7.
 
 TODO: HINT: You can use the assignment operator (=) to assign a value
-TODO: of one varaible to a different variable.
+TODO: of one variable to a different variable.
 */
 
 // * Add your code BELOW here

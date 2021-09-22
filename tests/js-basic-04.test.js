@@ -88,7 +88,7 @@ test('rnd', () => {
 ? between 0 (inclusive) and 1 (exclusive).
 ? Math.floor() rounds a number down to the nearest integer.
 
-? So, to create a random integer between 0 (inlusive) and 10 (exclusive),
+? So, to create a random integer between 0 (inclusive) and 10 (exclusive),
 ? the expression is: Math.floor(Math.random() * 10)
 ? The result of that expression is an integer between 0 and 9.
 
