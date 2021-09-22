@@ -109,6 +109,8 @@ test('randomInt', () => {
   expect(randomInt).toBeGreaterThanOrEqual(0);
   expect(randomInt).toBeLessThanOrEqual(5);
   expect([0, 1, 2, 3, 4]).toContain(randomInt);
+  expect(randomInt).not.toBeGreaterThanOrEqual(5);
+  expect(randomInt).not.toBeLessThan(0);
 });
 
 /*
