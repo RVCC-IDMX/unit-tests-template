@@ -259,18 +259,21 @@ test('thisMonth', () => {
 Template literals are a very important part of modern JavaScript
 and are used to create strings.
 
+When writing code for a string, you should always ask yourself,
+can I use the ${} syntax to insert a JavaScript expression?
+
 https://blog.webdevsimplified.com/2020-03/tagged-template-literals/
 
 ToDO: In the below area, you will practice making template literals
 
 */
 
-// add a variable named year and set it to 2001
-// add a variable called firstName and set it to John
-// add a variable called lastName and set it to Smith
-// create a variable called message and set it to the template literal
-// such that you get the string - 'Hi, my name is John Smith and I was born in 2001'
-// You must use the template literal syntax
+// ToDO: add a variable named year and set it to 2001
+// ToDO: add a variable called firstName and set it to John
+// ToDO: add a variable called lastName and set it to Smith
+// ToDO: create a variable called message and set it to the template literal
+// ToDO: such that you get the string - 'Hi, my name is John Smith and I was born in 2001'
+// ToDO: You must use the template literal syntax
 
 // * Add your code BELOW here
 
@@ -281,11 +284,11 @@ test('creating a message', () => {
   expect(message).toMatch(/^Hi, my name is John Smith and I was born in 2001$/gm);
 });
 
-// add a variable called tax and set it to 8.25
-// add a variable called price and set it to 100
-// create a variable called total and set it to the template literal
-// such that you get the string - 'Your total including tax is $108.25'
-// You must use the template literal syntax
+// ToDO: add a variable called tax and set it to 8.25
+// ToDO: add a variable called price and set it to 100
+// ToDO: create a variable called total and set it to the template literal
+// ToDO: such that you get the string - 'Your total including tax is $108.25'
+// ToDO: You must use the template literal syntax
 
 // NOTE: Inside the ${} syntax you can do the math you need to do
 // to get the total price including tax. It will look like this:
@@ -300,10 +303,11 @@ test('creating a total', () => {
   expect(total).toMatch(/^Your total including tax is \$108.25$/gm);
 });
 
-// add a variable called heading1 and set it the the string 'JavaScript'
-// add a variable called heading2 and set it the the string 'HTML'
-// create a variable called html and set to the template literal
-// such that you get the string - '<h1>JavaScript</h1><h2>HTML</h2><p>This is a paragraph</p>'
+// ToDO: add a variable called heading1 and set it the the string 'JavaScript'
+// ToDO: add a variable called heading2 and set it the the string 'HTML'
+// ToDO: create a variable called html and set to the template literal
+// ToDO: such that you get the string - '<h1>JavaScript</h1><h2>HTML</h2><p>This is a paragraph</p>'
+
 // * Add your code BELOW here
 
 // * Don't mess with the test code below here!
