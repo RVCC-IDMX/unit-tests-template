@@ -174,6 +174,8 @@ test('mySentence', () => {
 ? arbitrary JavaScript expressions. Everything between the ${ and the matching }
 ? is interpreted as a JavaScript expression.
 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+
 TODO: This skill requires 1 line of code.
 TODO: Use the let keyword to create a variable called helloPet and assign it to the
 TODO: template literal that starts with the string 'Hello, ' and ends with the value
