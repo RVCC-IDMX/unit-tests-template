@@ -46,7 +46,6 @@ TODO: This skill requires 1 line of code.
 TODO: Use the let keyword to declare a variable called myName and make sure you
 TODO: DO NOT assign it a value.
 */
-
 // * Add your code BELOW here
 
 // * Don't mess with the test code below here!
@@ -113,8 +112,13 @@ test('daysInWeek', () => {
 
 ? The let keyword is used to declare a variable that is block scoped. This means
 ? that the variable is only available within the block of code in which it is defined.
-? The const keyword is used to declare a variable that is block scoped and immutable.
+? The const keyword is used to declare a variable that is also block scoped and immutable.
 ? This means a constant, once assigned, cannot be reassigned.
+
+? The var keyword is used to declare a variable that is function scoped. This means
+? that the variable is available within the function in which it is defined. With the
+? introduction of let and const, the var keyword is no longer needed and should not
+? be used.
 
 TODO: This skill requires 2 lines of code.
 TODO: In the first line and using let, declare a variable called myWorkDays.
@@ -153,7 +157,7 @@ test('myWorkDays', () => {
 TODO: This skill requires 3 lines of code.
 TODO: In the first line, declare a variable called oops, leave it undefined.
 TODO: In the second line, create a variable called sillyMath, leave it undefined.
-TODO: In the third line, assign sillyMath to product of oops times 2
+TODO: In the third line, assign sillyMath to the product of oops times 2
 TODO: (using the * operator for multiplication).
 */
 
@@ -192,4 +196,42 @@ test('sillyString', () => {
   expect(oops).toBeUndefined();
   expect(typeof sillyString).toBe('string');
   expect(sillyString).toBe('Hello, undefined');
+});
+
+/*
+
+! Practice
+
+TODO: In the following lines of code, create the required variable using a let or const
+TODO: keyword and assign it a value.
+
+*/
+
+// a variable (let) named year and set it to 2022
+// * Add your code BELOW here
+
+// * Don't mess with the test code below here!
+test('year', () => {
+  expect(year).toBe(2022);
+  expect(typeof year).toBe('number');
+});
+
+// a variable called firstName and set it to 'John'
+
+// * Add your code BELOW here
+
+// * Don't mess with the test code below here!'
+test('firstName', () => {
+  expect(firstName).toBe('John');
+  expect(typeof firstName).toBe('string');
+});
+
+// a constant called taxRate and set it to 0.2
+
+// * Add your code BELOW here
+
+// * Don't mess with the test code below here!
+test('taxRate', () => {
+  expect(taxRate).toBe(0.2);
+  expect(typeof taxRate).toBe('number');
 });

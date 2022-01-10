@@ -24,7 +24,7 @@
 ? respectively.
 
 TODO: This skill requires 1 line of code.
-TODO: Use the let keyword to declare a variable called isSeptember and assign it
+TODO: Use the let keyword to declare a variable called isJanuary and assign it
 TODO: to the boolean value true.
 */
 
@@ -32,10 +32,10 @@ TODO: to the boolean value true.
 
 // * Don't mess with the test code below here!
 
-test('isSeptember', () => {
-  expect(isSeptember).toBe(true);
-  expect(typeof isSeptember).toBe('boolean');
-  expect(isSeptember).toBeTruthy();
+test('isJanuary', () => {
+  expect(isJanuary).toBe(true);
+  expect(typeof isJanuary).toBe('boolean');
+  expect(isJanuary).toBeTruthy();
 });
 
 /*
@@ -139,4 +139,47 @@ test('bloop', () => {
   expect(bloop).toBeNull();
   expect(bloop).toBeFalsy();
   expect(typeof bloop).toBe('object');
+});
+
+/*
+
+! SKILL 6 Understanding the ! operator
+
+? The ! (logical not) operator is used to invert a boolean value.
+? The ! operator is also called the bang operator.
+
+ToDo: This skill requires 1 line of code.
+ToDo: Use the let keyword to declare a variable called notJanuary and assign it to
+ToDo: the boolean value of !isJanuary.
+*/
+
+// * Add your code BELOW here
+
+// * Don't mess with the test code below here!
+
+test('notJanuary', () => {
+  expect(notJanuary).toBeFalsy();
+  expect(typeof notJanuary).toBe('boolean');
+});
+
+/*
+
+? NOTE: You can apply the ! operator to any value and you can do it twice in a row.
+? Using !! converts truthy values to boolean true, and falsy values too boolean false.
+? When you see !!, think "Bang bang! you're boolean!"
+
+
+ToDo: This skill requires 2 lines of code.
+ToDo: Create a variable called user and assign it to an empty string.
+ToDo: Use the let keyword to declare a variable called isLoggedIn and assign it to
+ToDo: the boolean value of !!user.
+*/
+
+// * Add your code BELOW here
+
+// * Don't mess with the test code below here!
+
+test('isLoggedIn', () => {
+  expect(isLoggedIn).toBe(false);
+  expect(typeof isLoggedIn).toBe('boolean');
 });
