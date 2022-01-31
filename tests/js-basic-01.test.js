@@ -36,7 +36,7 @@
 
 /*
 
-! SKILL 1 Declare a variable
+! SKILL 1 Declare a variable 🍎
 
 ? If you don’t specify an initial value for a variable with the let keyword, the
 ? variable is declared, but its value is undefined until your code assigns a value
@@ -57,7 +57,7 @@ test('myName', () => {
 
 /*
 
-! SKILL 2 Assign a value to a variable
+! SKILL 2 Assign a value to a variable 🍎
 
 ? Variables and constants declared with let and const are block scoped. This
 ? means that they are only defined within the block of code in which the let or
@@ -80,7 +80,7 @@ test('age', () => {
 
 /*
 
-! SKILL 3 Declare and assign a constant
+! SKILL 3 Declare and assign a constant 🍎
 
 ? Constants are declared with the const keyword and must be assigned a value
 ? when declared, otherwise an error will be thrown. Constants are immutable, which
@@ -108,7 +108,7 @@ test('daysInWeek', () => {
 
 /*
 
-! SKILL 4 Understanding the difference between let and const
+! SKILL 4 Understanding the difference between let and const 🍎
 
 ? The let keyword is used to declare a variable that is block scoped. This means
 ? that the variable is only available within the block of code in which it is defined.
@@ -142,7 +142,7 @@ test('myWorkDays', () => {
 
 /*
 
-! SKILL 5 Understanding uninitialized variables & NaN
+! SKILL 5 Understanding uninitialized variables & NaN 🍎
 
 ? When JavaScript variables are declared, they are automatically initialized to
 ? undefined. This means that when you declare a variable, you are not assigning a
@@ -173,7 +173,7 @@ test('sillyMath', () => {
 
 /*
 
-! SKILL 6 Understanding uninitialized variables & concatenation
+! SKILL 6 Understanding uninitialized variables & concatenation 🍎
 
 ? When JavaScript variables are declared, they are automatically initialized to
 ? undefined. This means that when you declare a variable, you are not assigning a
@@ -200,7 +200,7 @@ test('sillyString', () => {
 
 /*
 
-! Practice
+! Practice 🍎🍎🍎
 
 TODO: In the following lines of code, create the required variable using a let or const
 TODO: keyword and assign it a value.

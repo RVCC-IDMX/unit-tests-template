@@ -22,7 +22,7 @@
 
 /*
 
-! SKILL 1 Do some simple arithmetic on variables of type number
+! SKILL 1 Do some simple arithmetic on variables of type number 🍎
 
 ? The following code uses the arithmetic operators to do some simple arithmetic on
 ? numbers.
@@ -56,7 +56,7 @@ test('arithmetic sum', () => {
 
 /*
 
-! SKILL 2 Create a random floating-point number using the Math object
+! SKILL 2 Create a random floating-point number using the Math object 🍎
 
 ? The Math object is a global object that contains methods for mathematical constants,
 ? functions, and methods for random number generation.
@@ -81,7 +81,7 @@ test('rnd', () => {
 
 /*
 
-! SKILL 3 Create a random integer using the Math object
+! SKILL 3 Create a random integer using the Math object 🍎
 
 
 ? REMEMBER: Math.random() returns a random floating-point number
@@ -118,7 +118,7 @@ test('randomInt', () => {
 
 /*
 
-! SKILL 4 Round down a floating-point number using the Math object
+! SKILL 4 Round down a floating-point number using the Math object 🍎
 
 ? The Math object has the methods: round, floor, and ceil.
 
@@ -148,7 +148,7 @@ test('numRounded', () => {
 
 /*
 
-! SKILL 5 Round up or down based on the actual number
+! SKILL 5 Round up or down based on the actual number 🍎
 
 TODO: This skill requires 6 lines of code.
 TODO: In line 1: Using the keyword let declare a variable called rounding1
@@ -176,7 +176,7 @@ test('rounding', () => {
 })
 /*
 
-! SKILL 6 Type conversion string to number using parseInt()
+! SKILL 6 Type conversion string to number using parseInt() 🍎
 
 ? The parseInt() and parseFloat() functions are global functions and
 ? can be used to convert strings to numbers. The parseInt() function
@@ -212,7 +212,7 @@ test('bakersDozen', () => {
 
 /*
 
-! SKILL 7 Type conversion number to string using .toFixed()
+! SKILL 7 Type conversion number to string using .toFixed() 🍎
 
 ? The .toFixed() method converts a number to a string, but it also
 ? has an optional parameter that specifies the number of digits to
@@ -257,7 +257,7 @@ test('myPiFixed', () => {
 
 /*
 
-! SKILL 8 Type conversion string to number using the unary + operator
+! SKILL 8 Type conversion string to number using the unary + operator 🍎
 
 ? The unary + operator attempts to convert a string to a number.
 ? If the string cannot be converted to a number, the + operator returns

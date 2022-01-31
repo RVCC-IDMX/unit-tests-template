@@ -17,7 +17,7 @@
 
 /*
 
-! SKILL 1 Understanding boolean values
+! SKILL 1 Understanding boolean values 🍎
 
 ? JavaScript has the reserved words true and false.
 ? The reserved words true and false evaluate to the boolean value true and false,
@@ -40,7 +40,7 @@ test('isJanuary', () => {
 
 /*
 
-! SKILL 2 Understanding falsy
+! SKILL 2 Understanding falsy 🍎
 
 ? In JavaScript,all values are either truthy or falsy.
 ? The following types all evaluate to false: undefined, null, 0, -0, NaN, and
@@ -69,7 +69,7 @@ test('isFalsy', () => {
 
 /*
 
-! SKILL 3 Understanding truthy
+! SKILL 3 Understanding truthy 🍎
 
 ? Anything that is not a falsy is a truthy
 ? That means that everything except undefined, null, 0, -0, NaN, and the empty
@@ -94,7 +94,7 @@ test('isTruthy', () => {
 
 /*
 
-! SKILL 4 Understanding undefined
+! SKILL 4 Understanding undefined 🍎
 
 ? A declared variable is undefined if it has not been assigned a value.
 ? The reserved word undefined is the only value of type undefined.
@@ -118,7 +118,7 @@ test('notAssigned', () => {
 
 /*
 
-! SKILL 5 Understanding null
+! SKILL 5 Understanding null 🍎
 
 ? A declared variable can be assigned to null, which is a special value that
 ? represents no value.
@@ -143,14 +143,14 @@ test('bloop', () => {
 
 /*
 
-! SKILL 6 Understanding the ! operator
+! SKILL 6 Understanding the ! operator 🍎
 
 ? The ! (logical not) operator is used to invert a boolean value.
 ? The ! operator is also called the bang operator.
 
-ToDo: This skill requires 1 line of code.
-ToDo: Use the let keyword to declare a variable called notJanuary and assign it to
-ToDo: the boolean value of !isJanuary.
+TODO: This skill requires 1 line of code.
+TODO: Use the let keyword to declare a variable called notJanuary and assign it to
+TODO: the boolean value of !isJanuary.
 */
 
 // * Add your code BELOW here
@@ -169,10 +169,10 @@ test('notJanuary', () => {
 ? When you see !!, think "Bang bang! you're boolean!"
 
 
-ToDo: This skill requires 2 lines of code.
-ToDo: Create a variable called user and assign it to an empty string.
-ToDo: Use the let keyword to declare a variable called isLoggedIn and assign it to
-ToDo: the boolean value of !!user.
+TODO: This skill requires 2 lines of code.
+TODO: Create a variable called user and assign it to an empty string.
+TODO: Use the let keyword to declare a variable called isLoggedIn and assign it to
+TODO: the boolean value of !!user.
 */
 
 // * Add your code BELOW here

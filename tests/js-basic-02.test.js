@@ -22,7 +22,7 @@
 
 /*
 
-! SKILL 1 Declare a string literal
+! SKILL 1 Declare a string literal 🍎
 
 ? To include a string in a JavaScript program, simply enclose the characters of
 ? the string within a matched pair of single or double quotes or backticks (' or "
@@ -30,7 +30,7 @@
 ? delimited by single-quote characters, and similarly for strings delimited by
 ? double quotes and backticks.
 
-? BIG NOTE: In this class, we will default to using single-quotes when not using
+? ❕❕ BIG NOTE: In this class, we will default to using single-quotes when not using
 ? backticks for template literals.
 
 TODO: This skill requires 1 line of code.
@@ -49,7 +49,7 @@ test('myClass', () => {
 
 /*
 
-! SKILL 2 Assign an empty string literal to a variable
+! SKILL 2 Assign an empty string literal to a variable 🍎
 
 ? The empty string is the string of length 0.
 
@@ -72,7 +72,7 @@ test('emptyString', () => {
 
 /*
 
-! SKILL 3 Understanding the length of a string
+! SKILL 3 Understanding the length of a string 🍎
 
 ? The length of a string is the number of 16-bit characters it contains.
 
@@ -93,7 +93,7 @@ test('petName', () => {
 });
 
 /*
-! SKILL 4 Understanding zero-based indexing
+! SKILL 4 Understanding zero-based indexing 🍎
 
 ? JavaScript strings use zero-based indexing: the first 16-bit value is at
 ? position 0, the second at position 1, and so on.
@@ -116,7 +116,7 @@ test('firstLetterIsA', () => {
 
 /*
 
-! SKILL 5 Understanding escape sequences
+! SKILL 5 Understanding escape sequences 🍎
 
 ? The backslash character (\) has a special purpose in JavaScript strings.
 ? Combined with the character that follows it, it represents a character that is
@@ -143,7 +143,7 @@ test('counting', () => {
 
 /*
 
-! SKILL 6 Understanding the concatenation operator for strings
+! SKILL 6 Understanding the concatenation operator for strings 🍎
 
 ? One of the built-in features of JavaScript is the ability to concatenate
 ? strings. If you use the + operator with numbers, it adds them. But if you use
@@ -167,7 +167,7 @@ test('mySentence', () => {
 
 /*
 
-! SKILL 7 Understanding the template literal
+! SKILL 7 Understanding the template literal 🍎
 
 ? In ES6 and later, string literals can be delimited with backticks (the key to
 ? the left of the 1 key on your keyboard). These template literals can include
@@ -195,7 +195,7 @@ test('helloPet', () => {
 
 /*
 
-! SKILL 8 Understanding string immutability - part 1
+! SKILL 8 Understanding string immutability - part 1 🍎
 
 ? Primitive values like numbers and strings are immutable.
 ? When you reassign a variable to a new primitive value, the
@@ -224,7 +224,7 @@ test('myState', () => {
 
 /*
 
-! SKILL 9 Understanding string immutability - part 2
+! SKILL 9 Understanding string immutability - part 2 🍎
 
 
 ? In JavaScript, strings are immutable. This means that once a string is
@@ -254,7 +254,7 @@ test('thisMonth', () => {
 
 /*
 
-! Practice
+! Practice 🍎🍎🍎
 
 Template literals are a very important part of modern JavaScript
 and are used to create strings.
@@ -264,16 +264,16 @@ can I use the ${} syntax to insert a JavaScript expression?
 
 https://blog.webdevsimplified.com/2020-03/tagged-template-literals/
 
-ToDO: In the below area, you will practice making template literals
+TODO: In the below area, you will practice making template literals
 
 */
 
-// ToDO: add a variable named year and set it to 2001
-// ToDO: add a variable called firstName and set it to John
-// ToDO: add a variable called lastName and set it to Smith
-// ToDO: create a variable called message and set it to the template literal
-// ToDO: such that you get the string - 'Hi, my name is John Smith and I was born in 2001'
-// ToDO: You must use the template literal syntax
+// TODO: add a variable named year and set it to 2001
+// TODO: add a variable called firstName and set it to John
+// TODO: add a variable called lastName and set it to Smith
+// TODO: create a variable called message and set it to the template literal
+// TODO: such that you get the string - 'Hi, my name is John Smith and I was born in 2001'
+// TODO: You must use the template literal syntax
 
 // * Add your code BELOW here
 
@@ -284,11 +284,11 @@ test('creating a message', () => {
   expect(message).toMatch(/^Hi, my name is John Smith and I was born in 2001$/gm);
 });
 
-// ToDO: add a variable called tax and set it to 8.25
-// ToDO: add a variable called price and set it to 100
-// ToDO: create a variable called total and set it to the template literal
-// ToDO: such that you get the string - 'Your total including tax is $108.25'
-// ToDO: You must use the template literal syntax
+// TODO: add a variable called tax and set it to 8.25
+// TODO: add a variable called price and set it to 100
+// TODO: create a variable called total and set it to the template literal
+// TODO: such that you get the string - 'Your total including tax is $108.25'
+// TODO: You must use the template literal syntax
 
 // NOTE: Inside the ${} syntax you can do the math you need to do
 // to get the total price including tax. It will look like this:
@@ -303,10 +303,10 @@ test('creating a total', () => {
   expect(total).toMatch(/^Your total including tax is \$108.25$/gm);
 });
 
-// ToDO: add a variable called heading1 and set it the the string 'JavaScript'
-// ToDO: add a variable called heading2 and set it the the string 'HTML'
-// ToDO: create a variable called html and set to the template literal
-// ToDO: such that you get the string - '<h1>JavaScript</h1><h2>HTML</h2><p>This is a paragraph</p>'
+// TODO: add a variable called heading1 and set it the the string 'JavaScript'
+// TODO: add a variable called heading2 and set it the the string 'HTML'
+// TODO: create a variable called html and set to the template literal
+// TODO: such that you get the string - '<h1>JavaScript</h1><h2>HTML</h2><p>This is a paragraph</p>'
 
 // * Add your code BELOW here
 
